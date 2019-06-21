@@ -39,7 +39,7 @@ public class SavingAccount extends Accounts{// subclass Saving Accounts
 	}//ends if
         else if (amount > balance && amount<= balance + overdraft)
         {
-            overdraft = overdraft + balance - amount;// remaining overdraft
+            overdraft = 10 + overdraft + balance - amount;// remaining overdraft @changed to 10 +
         balance = 0;
 
         
